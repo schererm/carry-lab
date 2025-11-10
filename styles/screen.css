@@ -1,7 +1,7 @@
 body {
-    font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
+    font-family: American Typewriter, serif;
+    color: #fafadb;
+    background: #3f865c;
     padding: 0 40px;
     text-align: center;
 }
@@ -34,8 +34,8 @@ nav ul li a {
 }
 
 h1 {
-    font-size: 8em;
-    letter-spacing: -2px;
+    font-size: 6em;
+    letter-spacing: -1px;
 }
 
 h1 strong {

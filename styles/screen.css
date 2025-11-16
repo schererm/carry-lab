@@ -2,12 +2,12 @@ body {
     font-family: American Typewriter, serif;
     color: #fafadb;
     background: #3f865c;
-    padding: 0 40px;
+    padding: 0 140px;
     text-align: center;
 }
 
 nav {
-    margin: 40px auto 0 auto;
+    margin: 20px auto 0 auto;
     width: 250px;
     border-radius: 50px;
     background: #212431;
@@ -28,9 +28,18 @@ nav ul li {
 nav ul li a {
     display: inline-block;
     padding: 20px;
-    color: #EAE8FF;
+    color: #e3ffbc;
     text-decoration: none;
     font-size: 1.2em;
+}
+
+ul {
+    list-style: none;  
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
 }
 
 h1 {
@@ -38,13 +47,70 @@ h1 {
     letter-spacing: -1px;
 }
 
-h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+main {
+    max-width: 800px;
+    margin: 60px auto;
+    margin-bottom: 80px;
+    padding: 40px;
+}
+
+h2, h3 {
+    color: #fffce1;
+    font-family: "American Typewriter", serif;
+    margin-top: 40px;
+}
+
+a {
+    color: #f2e6c7;
+    text-decoration: underline;
+    transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #212431;  /* your dark footer color */
+    color: #fafadb;        /* your cream text color */
+    text-align: center;
+    padding: 3px 0;
+    border-top: 3px solid #fafadb;  
+}
+
+.signature {
+    font-style: italic;
+    color: #e3e3c4;
+    text-align: right;
+    margin-top: 50px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #22c1c3, #fdbb2d);
+    color: #2c3b1f;
+    font-weight: bold;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+img {
+    max-width: 250px;
+    border-radius: 15px;
+    margin: 20px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
 img.about {
-    opacity: 0.5;
+    opacity: 1;
+}
+
+nav ul li a:hover {
+    background: #3f865c;
+    border-radius: 50px;
+    color: #fafadb;
 }

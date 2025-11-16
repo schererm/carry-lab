@@ -3,5 +3,5 @@ layout: layout.liquid
 title: About
 ---
 
-# About the 11ty **Boilerplate**
-<img class="about" alt="pine" src="/images/pine.png" width="50" />
+# About Molly's Everyday Carry
+This is a website that explains what I use everyday!
